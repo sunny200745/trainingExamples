@@ -58,6 +58,13 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
+.repeatDiv{
+  border: 1px solid;
+  margin: 10px;
+  text-align: center;
+  width: 58px;
+  float: left;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
