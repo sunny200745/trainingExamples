@@ -1,6 +1,25 @@
-<p>Showing the usage of ng-repeat.</p>
-<div class="repeatDiv" ng-repeat="n in repeatData">
-	<span>
+<div class="nxtExample">
+	<p class="boldText">Showing the usage of ng-repeat.</p>
+
+	<span class="repeatSpan" ng-repeat="n in repeatData">
 		{{n}}
 	</span>
+</div>
+
+
+<br/>
+<div class="nxtExample">
+	<p class="boldText">Showing the usage of ng-Switch.</p>
+
+	<select ng-model="status" ng-options="status for status in statusList"></select>
+    <p ng-switch on="(status == 'wrong') || (status == 'incorrect')">
+    
+    <span ng-switch-when="true" style="margin-bottom:10px;">
+        Wrong
+    </span>
+    
+    <span ng-switch-default>
+       Correct
+    </span>
+    
 </div>

@@ -14,5 +14,6 @@ angular.module('trainingExamplesApp')
       'AngularJS',
       'Karma'
     ];
-    $scope.repeatData = ["1","4","5","6","7"]
+    $scope.repeatData = ["1","4","5","6","7"];
+    $scope.statusList=["incorrect","wrong","stuff"];
   });
